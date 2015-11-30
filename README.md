@@ -10,7 +10,7 @@ Here I posted the codes of the Predictive Text Model I built for my Data Science
 3. Modelling.R
 4. Testing.R
 
-**Preprocessing.R** contains the script that preprocess the raw corpus from the *raw* folder into cleaned tokenized form. As running time is long, I have provided the preprocessed training data in the *res* folder therefore no need for you to run this script.
+**Preprocessing.R** contains the script that preprocess the raw corpus from the *raw* folder into cleaned tokenized form. As running time is long, I have provided the preprocessed training data in the *res* folder therefore no need for you to run this script. **Github does not allow me to upload files larger than 100mb. Full version of this repo with the *raw* and *res* folders can be retrieve from my Gitlab [repo](https://gitlab.com/yongjun21/DataScienceCapstone)**
 
 **Training.R** builds a n-gram language model from the tokenized corpus. I stop at 4-gram but included continuation probabilities so Kneser Ney can implemented.
 
